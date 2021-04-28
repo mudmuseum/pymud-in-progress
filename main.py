@@ -80,7 +80,7 @@ Directory Structure
         getattr(Command, self.text)(self, self.plist)
 
 
-
-main = Main()
-main.load_world()
-main.loop()
+if (__name__ == "__main__"):
+  main = Main()
+  main.load_world()
+  main.loop()
